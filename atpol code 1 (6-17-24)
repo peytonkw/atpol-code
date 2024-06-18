@@ -1,0 +1,395 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 15,
+        "fields": {
+            "year": 1988,
+            "summary": "Eight years of a generally popular and successful Reagan administration is coming to an end on a low note, Iran-Contra has damaged Reagan's reputation some, and it thoroughly killed George H.W. Bush's shot at the Presidency.\n<br><br>\nTaking advantage of Bush's fall is New Hampshire Senator Preston Isaac Holmes, and rising from a crowded Democratic field is liberal first term Senator Ethan Knapp.\n<br><br>\nPolls show the Knapp campaign to have a slight lead, and many traditionally solid GOP states in the Midwest and Plains stand as tossups due to the ongoing farm crisis.",
+            "image_url": "https://i.imgur.com/Kvc7gYV.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/aVktvTf.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>Peter Goldman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B012HU7SZA/amhius20-20\" target=\"_blank\">The Quest for the Presidency, 1988</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-299_1_dukakis-lost-reelection\" target=\"_blank\">How Presidential Race Was Won-and Lost : Michael S. Dukakis</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-302_1_george-bush\" target=\"_blank\">How Presidential Race Was Won--and Lost : George Bush</a></br><a href=\"http://www.usnews.com/news/articles/2008/01/17/the-photo-op-that-tanked\" target=\"_blank\">Michael Dukakis: The Photo Op That Tanked</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1988"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 152,
+        "fields": {
+            "first_name": "Preston Isaac ",
+            "last_name": "Holmes",
+            "election": 15,
+            "party": "Republican",
+            "state": "New Hampshire",
+            "priority": 1,
+            "description": "<b>Not Yet Playable</b><br><br>Replacing George H.W. Bush, who just a year ago many assumed was the sure Republican nominee, is New Hampshire Senator Preston Isaac Holmes, a man in many ways similar to the Vice President. Holmes is a moderate of New England origin, made a name for himself a key supporter of Reagan's agenda in the Senate, and is seen by many to be rather stiff and formal, struggling to gain the cowboy appeal of Reagan.<br><br>Holmes largely trailed for much of the primaries, up until a major Super Tuesday victory in Texas led to Broyt Haywood withdrawing and endorsing the Senator, boosting him towards the nomination. Holmes starts the campaign trailing in the polls, and his perceived elitism could prove an issue, and it's key that he hold on to the farm states, which have been hit hard by the farm crisis under Reagan.",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/BXYXuVd.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1988 election.</h3><p>In spite of a hard-fought challenge from Ethan Knapp, you have held on to succeed Ronald Reagan.</p><p>Whatever you did, it must have worked. On the political front, you can continue the policies of Reagan or turn in a more moderate direction. Internationally, you can hopefully oversee a period of relaxed tension with the Soviet Union.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1988 election.</h3><p>Perhaps it was always a long-shot -- the American people just seemed ready to move on from Reagan.</p><p>Time will tell how Knapp governs, but it's sure to be for a long time with zero bad things happening to him. Anything can happen in four years but early gossip says Broyt Haywood is the Republican favorite for 1992.</p>",
+            "no_electoral_majority_message": "<h3>Sorry. You have lost the 1988 election.</h3><p>Although the Electoral College was tied, the Democrats have won a solid majority in the House, and will elevate Michael Dukakis to the Presidency.</p><p>Time will tell if Dukakis governs as a moderate, a liberal, or a technocrat. A lot can happen in four years, but the early gossip is that Bob Dole has the inside track for the 1992 nomination. Your next steps are unclear.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 153,
+        "fields": {
+            "first_name": "Ethan",
+            "last_name": "Knapp",
+            "election": 15,
+            "party": "Democrat",
+            "state": "Washington",
+            "priority": 2,
+            "description": "First term Washington Senator Ethan Knapp managed to outlast a massive Democratic field in the primaries, ultimately emerging as the parties nominee. Elected to the Senate in 1986, Knapp has previously served as the Mayor of Seattle, Governor of Washington, and a U.S. Representative.<br><br>Knapp's brand of liberalism and progressivism proved very popular in the primaries, though he's seen by many to be stiff and uncharismatic. He remains vulnerable to attacks branding him a 'coastal elitist', attacks he faced even from his own party in the primaries.  Knapp will have to try to bring former Reagan Democrats back into the fold, in addition to appealing to farm states wandering from the GOP in the midst of the farm crisis if he hopes to win.",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/rRWDrxB.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1988 election.</h3><p>In spite of a hard-fought challenge from Ethan Knapp, you have held on to succeed Ronald Reagan.</p><p>On the political front, you can work a Democratic House to overturn the worst excesses of Reagan. Internationally, you can hopefully oversee a period of relaxed tension with the Soviet Union.\n\nDoes anybody else smell burnt toast?</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1988 election.</h3><p></p><p>Time will tell if Holmes governs as a moderate, or a staunch conservative. Many Democrats feel that this election was yours to lose, and it seems unlikely that you will be welcome to run again in four years. </p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have won the 1988 election.</h3><p>Although the Electoral College was tied, the Democrats have won a solid majority in the House, and will elevate Michael Dukakis to the Presidency.</p><p>On the political front, you can work a Democratic House to overturn the worst excesses of Reagan. Internationally, you can hopefully oversee a period of relaxed tension with the Soviet Union.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 154,
+        "fields": {
+            "first_name": "Ron",
+            "last_name": "Paul",
+            "election": 15,
+            "party": "Libertarian",
+            "state": "Texas",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 155,
+        "fields": {
+            "first_name": "Lenora",
+            "last_name": "Fulani/Other",
+            "election": 15,
+            "party": "Independent",
+            "state": "Pennsylvania",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 156,
+        "fields": {
+            "first_name": "Broyt",
+            "last_name": "Haywood",
+            "election": 15,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/zBmpBhU.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "One of your biggest opponents in the primaries, Haywood's shock endorsement of you right after Super Tuesday is seen by many as having been the main factor in propelling you to the nomination. <br><br>Put simply, Broyt has star power. He's got more charisma than he knows what to do with and is one of the biggest darlings of the New Right, he'd invigorate conservatives tepid about your campaign. At the same time Haywood has just one year of experience as the Governor of Florida, and his populist attacks on the Washington Establishment have made him few friends up there. His aggressiveness and undying faith in his beliefs are exactly what got him popular, but they  also hold a chance to backfire massively.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 159,
+        "fields": {
+            "first_name": "Howie",
+            "last_name": "Hartwell",
+            "election": 15,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/9maDAdN.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "One of your biggest opponents in the primaries, Hartwell brings an energy and charisma that you, unfortunately, do not possess. He also has strong ties to labor unions and an undeniable \"tough guy\" image, another thing you lack. He'd be sure to help lock down the Midwest, especially his home state of Ohio.<br><br>However Hartwell was rather vicious with his attacks on you in the primaries, being among those to deride you as a \"coastal elitist\". Questions about these attacks could certainly cause some headaches, along with his differences with you on a few key positions, such as free trade.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 160,
+        "fields": {
+            "first_name": "Griff",
+            "last_name": "Mercer",
+            "election": 15,
+            "party": "Democrat",
+            "state": "Nebraska",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/6y6uJMM.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<b>Not Yet Playable</b><br><br>\nIf Hartwell's attacks on you have turned you off too much on him, another guy with an established \"tough guy\" image to counter your perceived coastal elitism is Senator Griff Mercer. A two term Senator from a state that could be a tossup for the first time in decades, Mercer also boasts a 40 year resume that includes experience as a fighter pilot and astronaut.<br><br>That being said, picking Mercer has the chance to really tick off some of your more dovish supporters, as Mercer is a committed foreign policy hawk, and there's little chance he'd be willing to hold his tongue on anything that displeases him, leaving the potential for some major gaffes.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 163,
+        "fields": {
+            "first_name": "Andre",
+            "last_name": "Marrou",
+            "election": 15,
+            "party": "Libertarian",
+            "state": "Alaska",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 164,
+        "fields": {
+            "first_name": "Other",
+            "last_name": "Other",
+            "election": 15,
+            "party": "Independent",
+            "state": "Pennsylvania",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 165,
+        "fields": {
+            "first_name": "Oliver",
+            "last_name": "Kirkland",
+            "election": 15,
+            "party": "Republican",
+            "state": "Missouri",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/Tae9NKy.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<b>Not Yet Playable</b><br><br>Selecting Kirkland would represent a massive shift in strategy, and holds the chance to cause a mass revolt of the conservative wing if not handled correctly. Kirkland would be the most liberal Republican Vice Presidential nominee in decades. His more liberal stances on issues like the economy and gay rights are sure to send conservatives of all stripes into a frenzy, and to leave Democrats off guard and scratching their heads.<br><br>Kirkland's main upside is being a really nice guy.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 106,
+        "fields": {
+            "candidate": 155,
+            "running_mate": 164
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 105,
+        "fields": {
+            "candidate": 154,
+            "running_mate": 163
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 101,
+        "fields": {
+            "candidate": 153,
+            "running_mate": 159
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 98,
+        "fields": {
+            "candidate": 152,
+            "running_mate": 156
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 102,
+        "fields": {
+            "candidate": 153,
+            "running_mate": 160
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 102598,
+        "fields": {
+            "candidate": 152,
+            "running_mate": 165
+        }
+    }
+]
+
+campaignTrail_temp.credits = "peytonkw on alternatehistory.com"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 15,
+        "candidates": [
+            152,
+            153,
+            154,
+            155
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 15,
+        "candidates": [
+            152,
+            153,
+            154,
+            155
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 15,
+        "year": 1988,
+        "is_premium": 0,
+        "display_year": "1988"
+    }
+]
+
+jet_data = {
+    "headerColor": "#001c70",
+    "windowColor": "#001c70",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#6bceff",
+    "bannerImageUrl": "https://i.imgur.com/lyl5lvZ.png",
+    "backgroundImageUrl": "https://blogs.libraries.wright.edu/news/outofthebox/files/2012/09/bush_athobartarenathumbs.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#001c70";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#001c70";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://i.imgur.com/lyl5lvZ.png";
+
+document.body.background = "https://blogs.libraries.wright.edu/news/outofthebox/files/2012/09/bush_athobartarenathumbs.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#6bceff!important;}</style>";
+
+//#endcode
