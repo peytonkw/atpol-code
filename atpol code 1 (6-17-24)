@@ -174,7 +174,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<b>Not Yet Playable</b><br><br>\nIf Hartwell's attacks on you have turned you off too much on him, another guy with an established \"tough guy\" image to counter your perceived coastal elitism is Senator Griff Mercer. A two term Senator from a state that could be a tossup for the first time in decades, Mercer also boasts a 40 year resume that includes experience as a fighter pilot and astronaut.<br><br>That being said, picking Mercer has the chance to really tick off some of your more dovish supporters, as Mercer is a committed foreign policy hawk, and there's little chance he'd be willing to hold his tongue on anything that displeases him, leaving the potential for some major gaffes.",
+            "description_as_running_mate": "If Hartwell's attacks on you have turned you off too much on him, another guy with an established \"tough guy\" image to counter your perceived coastal elitism is Senator Griff Mercer. A two term Senator from a state that could be a tossup for the first time in decades, Mercer also boasts a 40 year resume that includes experience as a fighter pilot and astronaut.<br><br>That being said, picking Mercer has the chance to really tick off some of your more dovish supporters, as Mercer is a committed foreign policy hawk, and there's little chance he'd be willing to hold his tongue on anything that displeases him, leaving the potential for some major gaffes.",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -363,7 +363,7 @@ campaignTrail_temp.temp_election_list = [
 
 jet_data = {
     "headerColor": "#001c70",
-    "windowColor": "#001c70",
+    "windowColor": "#6bceff",
     "containerColor": "#FFFFFF",
     "innerWindowColor": "#6bceff",
     "bannerImageUrl": "https://i.imgur.com/lyl5lvZ.png",
@@ -378,7 +378,7 @@ jet_data = {
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#001c70";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#001c70";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#6bceff";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
